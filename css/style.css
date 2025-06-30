@@ -1,0 +1,145 @@
+/* Reset & Base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aad4cf; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  position: relative;
+  text-align: center;
+}
+
+header img {
+  width: auto;
+  height: auto;
+background: rgba(0, 0, 0, 0.126);
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5em;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Navigation */
+nav {
+  background-color: #e3f8f456; 
+  text-align: center;
+  max-width: 1025px;
+ margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  max-width: 990px;
+  margin: auto;
+  background-color: #e3f8f456;
+  
+}
+
+/* Float Image in Article */
+.float-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+  width: 200px;
+  height: auto;
+ 
+}
+
+/* Facts List */
+.facts ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Form Section */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 2px solid black; 
+}
+ 
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+/* Radio buttons inline */
+form .radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+form .radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/* color of button */
+form button {
+  width: 100px;
+  padding: 10px;
+  background-color: #aad4cf; 
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #91c5be; 
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  padding: 20px;
+  background-color: #d0e8e5;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+}
