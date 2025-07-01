@@ -86,14 +86,11 @@ form {
   border: 2px solid black; 
 }
  
-form label {
-  font-weight: bold;
-}
-
 form input[type="text"],
 form input[type="email"],
 form textarea {
   padding: 10px;
+  margin: 8PX;
   border: 1px solid #ccc;
   width: 100%;
   box-sizing: border-box;
